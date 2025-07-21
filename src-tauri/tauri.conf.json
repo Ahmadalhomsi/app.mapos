@@ -12,13 +12,21 @@
   "app": {
     "windows": [
       {
-        "title": "appmapos",
-        "width": 800,
-        "height": 600
+        "title": "App Mapos",
+        "width": 1920,
+        "height": 1080,
+        "fullscreen": true,
+        "resizable": false,
+        "maximized": true,
+        "decorations": false,
+        "alwaysOnTop": true,
+        "skipTaskbar": true,
+        "url": "https://app.mapos.com.tr"
       }
     ],
     "security": {
-      "csp": null
+      "csp": null,
+      "dangerousDisableAssetCspModification": true
     }
   },
   "bundle": {
